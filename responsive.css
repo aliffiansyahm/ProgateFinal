@@ -66,4 +66,12 @@
     .contact-form {
     	font-size: 14px;
     }
+    footer {
+        text-align:center;
+        width:100%;
+    }
+    .facebook {
+        margin-bottom:10px;
+    }
+    
 }
