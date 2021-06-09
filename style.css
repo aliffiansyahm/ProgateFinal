@@ -411,6 +411,7 @@ footer img {
 .footer-list ul1 {
 	font-size:18px;
 	float:left;
+    /* margin: 30px auto;; */
 	margin-left:10%;
 	margin-top:30px;
 	margin-bottom:30px;
@@ -434,7 +435,6 @@ footer img {
 
 .footer-right h2 {
 	font-size:18px;
-	float:left;
 	margin-right:10%;
 	margin-left:15%;
 	margin-top:10%;
@@ -443,7 +443,7 @@ footer img {
 
 .footer-right {
 	float:right;
-	margin-right:15%;
+	/* margin-right:15%; */
 }
 
 .facebook {

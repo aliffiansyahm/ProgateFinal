@@ -32,7 +32,12 @@
     .flight-deals h4 {
     	font-size: 16px;
     }
-
+    .footer-right{
+        display: inline-block;text-align: center;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        float: none;
+    }
 }
 
 /* For Smartphones */
@@ -66,12 +71,23 @@
     .contact-form {
     	font-size: 14px;
     }
-    footer {
-        text-align:center;
-        width:100%;
+    .container img{
+        float: none;
     }
+    footer{
+        height: 450px;
+    }
+    footer img{
+        margin-bottom:0px;
+    }
+    .container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .facebook {
         margin-bottom:10px;
     }
-    
+
 }
