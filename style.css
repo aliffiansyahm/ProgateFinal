@@ -11,8 +11,17 @@ a {
 }
 
 header{
-    height:60px;
-    background-color: red;
+    height:65px;
+    width: 100%;
+    background-color: #cadff5;
+    /* background-color: rgba(255,255,255,0.2); */
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo {
+    width: 135px;
+    margin-top: 60;
 }
 .container{
     max-width: 1170px;
@@ -24,6 +33,29 @@ header{
 }
 .header-right {
     float:right;
+}
+.header-right a {
+    line-height: 65px;
+    padding: 0 30px;
+    color: rgb(18, 116, 207);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-right a:hover {
+   background-color: rgba(206, 30, 18, 0.76);
+   color: white;
+}
+.menu-icon {
+    color: rgb(18, 116, 207);
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none !important;
+}
+
+.menu-icon:hover {
+    color: rgba(206, 30, 18, 0.76);
 }
 
 .btn {
@@ -46,7 +78,7 @@ header{
     top: 0;
     left: 0;
     color: white;
-    padding: 30px 0 30px 0;
+    padding: 65px 0 30px 0;
     background-color: yellow;
     height: auto;
     width: 100%;
@@ -295,7 +327,6 @@ header{
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     padding: 10px;
-
 }
 
 .flight-deals {
@@ -307,6 +338,7 @@ header{
     font-style: normal;
     text-decoration: none;
     padding-left: 15px;
+    transition: transform .5s;
 }
 
 
